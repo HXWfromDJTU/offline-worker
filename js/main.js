@@ -1,5 +1,5 @@
 // Make sure service-worker supported
-if ('service-worker' in navigator) {
+if ('ServiceWorker' in window) {
     console.log('You have service-worker supported')
     // listen the 'load' event
     window.addEventListener('load', () => {
